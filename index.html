@@ -405,7 +405,15 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
                                     </svg>
                                 </div>
-                                <span class="text-xs font-mono text-cyan-400 bg-cyan-950/40 border border-cyan-800/30 px-2.5 py-1 rounded">May 2026</span>
+                                <span class="text-xs font-mono text-cyan-400 bg-cyan-950/40 border border-cyan-800/30 px-2.5 py-1 rounded">May 19, 2026</span>
+                            </div>
+                            <!-- Certificate Image Thumbnail -->
+                            <div class="relative w-full h-32 rounded-lg overflow-hidden border border-white/10 bg-slate-950 mb-4 cursor-pointer group/img" onclick="openCertModal('assets/certificates/eyouth_bi_data_analysis.png', 'Business Intelligence and Data Analysis', 'eYouth Link Program', 'May 19, 2026')">
+                                <img src="assets/certificates/eyouth_bi_data_analysis.png" alt="eYouth BI Certificate" class="w-full h-full object-cover group-hover/img:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/40 opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center gap-2 text-white font-medium text-xs backdrop-blur-[2px]">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                                    View Certificate
+                                </div>
                             </div>
                             <span class="text-xs font-mono text-slate-400 block mb-1">eYouth &bull; "Link" Program</span>
                             <h4 class="text-lg font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">Business Intelligence and Data Analysis</h4>
@@ -413,6 +421,11 @@
                                 Practical methodologies for data extraction, BI report creation, visual analytics dashboards, and data-driven decision logic.
                             </p>
                         </div>
+                        <button onclick="openCertModal('assets/certificates/eyouth_bi_data_analysis.png', 'Business Intelligence and Data Analysis', 'eYouth Link Program', 'May 19, 2026')"
+                            class="w-full py-2 rounded-lg bg-cyan-500/10 border border-cyan-500/30 text-cyan-300 hover:bg-cyan-500/20 text-xs font-medium transition-all flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                            View Certificate
+                        </button>
                     </div>
 
                     <!-- Google AI Card -->
@@ -426,12 +439,25 @@
                                 </div>
                                 <span class="text-xs font-mono text-violet-400 bg-violet-950/40 border border-violet-800/30 px-2.5 py-1 rounded">2026</span>
                             </div>
+                            <!-- Certificate Image Thumbnail -->
+                            <div class="relative w-full h-32 rounded-lg overflow-hidden border border-white/10 bg-slate-950 mb-4 cursor-pointer group/img" onclick="openCertModal('assets/certificates/google_build_with_ai.png', 'Build with AI: Masr Edition', 'Google for Developers & ITI', '2026')">
+                                <img src="assets/certificates/google_build_with_ai.png" alt="Google Build with AI Certificate" class="w-full h-full object-cover group-hover/img:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/40 opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center gap-2 text-white font-medium text-xs backdrop-blur-[2px]">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                                    View Certificate
+                                </div>
+                            </div>
                             <span class="text-xs font-mono text-slate-400 block mb-1">Google for Developers & ITI</span>
                             <h4 class="text-lg font-bold text-white mb-2 group-hover:text-violet-400 transition-colors">Build with AI: Masr Edition</h4>
                             <p class="text-xs text-slate-300 leading-relaxed mb-4">
-                                Hands-on workshop covering Google Gemini API integration, prompt engineering techniques, and AI-assisted software solutions.
+                                Certificate of attendance for Google for Developers & ITI virtual sessions covering Google Gemini API, prompt workflows, and AI integration.
                             </p>
                         </div>
+                        <button onclick="openCertModal('assets/certificates/google_build_with_ai.png', 'Build with AI: Masr Edition', 'Google for Developers & ITI', '2026')"
+                            class="w-full py-2 rounded-lg bg-violet-500/10 border border-violet-500/30 text-violet-300 hover:bg-violet-500/20 text-xs font-medium transition-all flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                            View Certificate
+                        </button>
                     </div>
 
                     <!-- AWS Robotics Card -->
@@ -443,11 +469,28 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
                                     </svg>
                                 </div>
-                                <span class="text-xs font-mono text-amber-400 bg-amber-950/40 border border-amber-800/30 px-2.5 py-1 rounded">January 2026</span>
+                                <span class="text-xs font-mono text-amber-400 bg-amber-950/40 border border-amber-800/30 px-2.5 py-1 rounded">January 04, 2026</span>
+                            </div>
+                            <!-- Certificate Image Thumbnail -->
+                            <div class="relative w-full h-32 rounded-lg overflow-hidden border border-white/10 bg-slate-950 mb-4 cursor-pointer group/img" onclick="openCertModal('assets/certificates/aws_robotics.png', 'Introduction to Robotics on AWS', 'AWS Training & Certification', 'January 04, 2026')">
+                                <img src="assets/certificates/aws_robotics.png" alt="AWS Robotics Certificate" class="w-full h-full object-cover group-hover/img:scale-105 transition-transform duration-300">
+                                <div class="absolute inset-0 bg-slate-950/40 opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center gap-2 text-white font-medium text-xs backdrop-blur-[2px]">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                                    View Certificate
+                                </div>
                             </div>
                             <span class="text-xs font-mono text-slate-400 block mb-1">AWS Training &bull; Cloud Systems</span>
                             <h4 class="text-lg font-bold text-white mb-2 group-hover:text-amber-400 transition-colors">Introduction to Robotics on AWS</h4>
                             <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                                Completion certificate for ROS integration, cloud robotics simulation, and managing robotic fleet deployments on AWS.
+                            </p>
+                        </div>
+                        <button onclick="openCertModal('assets/certificates/aws_robotics.png', 'Introduction to Robotics on AWS', 'AWS Training & Certification', 'January 04, 2026')"
+                            class="w-full py-2 rounded-lg bg-amber-500/10 border border-amber-500/30 text-amber-300 hover:bg-amber-500/20 text-xs font-medium transition-all flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
+                            View Certificate
+                        </button>
+                    </div>
                                 Simulation fundamentals, ROS integration on cloud infrastructure, and managing robotic fleet deployments via AWS services.
                             </p>
                         </div>
